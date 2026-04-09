@@ -1,10 +1,7 @@
 package TestOrg.ProjectOne;
 
-import static org.testng.AssertJUnit.assertTrue;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 /**
