@@ -20,4 +20,13 @@ public class AppTest {
         Assert.assertEquals(actual, expected);
         System.out.println("Test passed");
     }
+    
+    @Test
+    public void answerWithTrue() {
+    	String actual = "Google";
+        String expected = "Google";
+
+        Assert.assertEquals(actual, expected);
+        System.out.println("Test passed in google");
+    }
 }
