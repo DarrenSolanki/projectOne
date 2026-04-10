@@ -40,7 +40,7 @@ public class AppTest {
     	WebDriver driver = new ChromeDriver();
     	driver.get("http://google.com");
     	Thread.sleep(5000);
-    	driver.close();
+    	
     	
     	
     }
