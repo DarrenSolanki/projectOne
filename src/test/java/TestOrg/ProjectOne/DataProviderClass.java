@@ -5,7 +5,7 @@ public class DataProviderClass {
 
 	@DataProvider
 	public Object getData() {
-		Object[][] data = new Object[3][2];
+		Object[][] data = new Object[4][2];
 		
 		data[0][0]="user one";
 		data[0][1]="password one";
@@ -15,6 +15,9 @@ public class DataProviderClass {
 		
 		data[2][0]="user three";
 		data[2][1]="password three";
+		
+		data[3][0]="user three";
+		data[3][1]="password three";
 		
 		return data;
 	}
